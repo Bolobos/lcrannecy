@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/table-to-json@1.0.0/lib/jquery.tabletojson.min.js" integrity="sha256-H8xrCe0tZFi/C2CgxkmiGksqVaxhW0PFcUKZJZo1yNU=" crossorigin="anonymous"></script>
+    </head>
+    <body>  
+        <h1>Légumes et cagettes rebelles <input type="date" id="date" name="date"></h1>
+        <table border="2" bordercolor="green" id="PrincipalTable">
+            <tr>
+                <td>Liste des produits</td>
+                <td>Prix HT
+                </td>
+                <td>Prix TTC
+                </td>
+                <td>Quantitée
+                </td>
+                <td>Prix total par produit
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="text" id="c11" name="name"> </td>
+                <td> <input type="text" id="c21" name="name"> </td>
+                <td> <input type="text" id="c31" name="name"> </td>
+                <td> <input type="text" id="c41" name="name"> </td>
+                <td id="c51"> 0</td>
+            </tr>
+        </table>
+        <br>
+        <button id="id02" type = "button"
+            type="button">
+        +
+        </button>
+        <p id="IDPrTotCag">
+            
+        </p>
+        <button id="id20" type = "button"
+            type="button">
+        Download
+        </button>
+        <script type="text/javascript" src="script.js" defer></script>
+    </body>
+</html>
